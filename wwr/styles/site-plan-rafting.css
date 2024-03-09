@@ -10,10 +10,10 @@ body{
     --primary-color: #1d1e18;
     --secondary-color: #c08552;
     --accent1-color: #2a2723;
-    --accent2-color: #5e3023;
+    --accent2-color: #ece2d0;
     --heading-font: 'madimi one', sans serif;
     --paragraph-font:'mulish', sans serif;
-    --nav-background-color: #591f0a;
+    --nav-background-color: #ece2d0;
     --nav-link-color: #895737;
     --nav-hover-link-color:var(--accent1-color);
     --nav-hover-background-color:var(--secondary-color);
