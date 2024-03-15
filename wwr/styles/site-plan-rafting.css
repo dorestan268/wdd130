@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto+Slab:wght@100..900&display=swap');
 
 body{
     font-family: var(--paragraph-font);
@@ -12,7 +12,7 @@ body{
     --accent1-color: #2a2723;
     --accent2-color: #ece2d0;
     --heading-font: 'madimi one', sans serif;
-    --paragraph-font:'mulish', sans serif;
+    --paragraph-font:'roboto slab', slab serif;
     --nav-background-color: #ece2d0;
     --nav-link-color: #895737;
     --nav-hover-link-color:var(--accent1-color);
