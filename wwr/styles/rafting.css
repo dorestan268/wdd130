@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+:root{
+    --primary-color: #1d1e18;
+    --secondary-color: #c08552;
+    --accent1-color: #2a2723;
+    --accent2-color: #ece2d0;
+    --heading-font: 'madimi one', sans serif;
+    --paragraph-font:'roboto slab', slab serif;
+    --nav-hover-link-color:var(--accent1-color);
+    --nav-hover-background-color:var(--secondary-color);
+    }
+
+    
+    .hero{
+        height: 600px;
+        background-image: url("../images/photo.png");
+        background-size: 100%;
+        padding-top: 80px;
+        
+    }
+
+ 
+
+    .hero h1{ 
+        background-color: #2a2723;
+        width: 100%;
+        color: white;
+        text-align: center;
+        
+    }
+
+
+    article{
+        width: 80%;
+        background-color: #1d1e18;
+        margin: 100px;
+    }
+
+
+    .hero article p{
+        padding-top: 50px;
+        padding-left: 50px;
+        height: 200px;
+        width: 70%;
+        color: white;
+        
+    }
+
+
+
+    .hero article img {
+        margin: 30px;
+        display: flex;
+        width: 250px;
+        height: auto;
+        float: right;
+    }
+
+    section img{
+        display: block;
+        margin: 10px;
+    }
+
+    footer p{
+        color: #021365;
+        font-weight: bold;
+        font-style: italic;
+    }
+      
+
+
+
+
