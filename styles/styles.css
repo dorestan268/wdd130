@@ -16,11 +16,12 @@ nav a{
   }
   nav a:hover {
     color: black;
-    margin: 1rem;
+    margin: 1px;
     text-decoration: underline;
   }
 
 h1{
+    margin-bottom: 10px;
     color: steelblue;
     border-bottom: 1px solid steelblue;
 }
@@ -41,7 +42,7 @@ main img{
 }
 
 p{
-    padding: 0;
+    margin: 1rem;
 }
 
 
@@ -65,9 +66,10 @@ aside h2{
 }
 
 aside img{
-    width: 200px;
+    width: 270px;
     height: auto; 
 }
+
 
 footer{
     margin-top: 15px;
@@ -85,6 +87,7 @@ footer{
 /* Class Selectors */
 
 .box{
+    display: grid;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
