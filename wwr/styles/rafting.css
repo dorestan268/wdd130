@@ -37,7 +37,7 @@
         display: block;
         padding: 25px;
         font-family: var(--heading-font);
-        font-weight: 600px;
+        font-weight: 500px;
     }
 
     nav a:hover{
