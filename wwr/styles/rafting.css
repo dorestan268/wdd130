@@ -13,9 +13,36 @@
     --nav-hover-background-color:var(--secondary-color);
     }
 
+    header{
+      margin: 1rem auto;
+      display: grid;
+      grid-template-columns: 400px 1fr 1fr;
+      align-items: center;
+      background-color: #0F6A79;
+      width: 100%;
+    }
+
+    header img{
+      margin: 10px 10px 10px 50px;
+    }
+
+    nav{
+      display: flex;
+    }
+
+
     nav a{
-        color: var(--primary-color);
+        color: var(--accent2-color);
         text-decoration: none;
+        display: block;
+        padding: 25px;
+        font-family: var(--heading-font);
+        font-weight: 600px;
+    }
+
+    nav a:hover{
+      color: #1d1e18;
+      text-decoration: 2px solid white underline;
     }
 
     .hero {
@@ -35,7 +62,7 @@
         background-color: var(--primary-color);
         text-align: center;
         position: relative;
-        margin-top: -580px;
+        margin-top: -550px;
       }
 
       
@@ -62,23 +89,61 @@
         font-family: var(--paragraph-font);
       }
 
+      section{
+        display: grid;
+        grid-template-columns: repeat(5, 20%);
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        background-color: aliceblue;
+        border: 1px solid black;
+        padding: 3rem;
+        margin-top: 1rem;
+      }
+
 
       section h2{
+        display: block;
         font-family: var(--heading-font);
-        padding-top: 35px;
+        margin-top: 3px;
         color: var(--secondary-color);
+        grid-column-start: 3;
+        grid-column-end: span 2;
+        position: relative;
+        align-items: center;
       }
 
       section img{
         display: block;
         margin-top: 10px;
         width: 500px;
+        justify-content: space-evenly;
+      }
+
+      section p{
+        display: block;
+        grid-row-start: 2;
+        grid-column-end:  span 5;
+      }
+
+      footer{
+        background-color: aliceblue;
+        border: 1px solid black;
+        margin: 1rem auto;
+        display: grid;
+        grid-template-columns: 900px 1fr 1fr;
+        align-items: center;
+        font-weight: bold;
       }
 
       footer p{
         font-family: var(--paragraph-font);
         font-style: italic;
         font-weight: bold;
+        margin-left: 450px;
+      }
+
+      footer nav{
+        justify-content: flex-end;
+        width: 35rem;
       }
 
       .sociallinks{
@@ -90,7 +155,27 @@
       }
 
       .sociallinks a img{
-        width: 25px;
-        height: 25px;
+        width: 40px;
+        height: 40px;
+        float: right;
+        margin: -10px;
+       }
+
+      section figure img{
+        width: 250px;
+        height: 200px;
+        margin-left: -50px;
+      }
+
+      figure{
+        display: block;
+        grid-row-start: 2;
+      }
+
+      figcaption{
+        margin-left: -100px;
+        position: relative;
+        display: flex;
+        justify-content: center;
       }
 
