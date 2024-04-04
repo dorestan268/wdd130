@@ -124,7 +124,7 @@
         padding: 20px;
       }
 
-      button[type="submit"]{
+      button[type="submit_message"]{
         background-color: #0F6A79;
         color: white;
         border-radius: 5px;
