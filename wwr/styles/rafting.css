@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Moul&display=swap');
 
 :root{
-    --primary-color: #1d1e18;
+    --primary-color: #0F6A79;
     --secondary-color: #c08552;
     --accent1-color: #2a2723;
     --accent2-color: #ece2d0;
@@ -18,7 +18,7 @@
       display: grid;
       grid-template-columns: 400px 1fr 1fr;
       align-items: center;
-      background-color: #0F6A79;
+      background-color: var(--primary-color) ;
       width: 100%;
     }
 
@@ -64,7 +64,78 @@
         margin-top: -550px;
       }
 
-      
+      .contact{
+        display: flex;
+        margin-top: 0;
+      }
+
+      .contact h1 {
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 15px;
+        font-family: var(--heading-font);
+      }  
+
+  
+      .contact p{
+        display: flex;
+        position: relative;
+        margin-left: 40px;
+        margin-top: 100px;
+        align-content: space-between;
+      }
+
+      .map iframe{
+        margin-left: 450px;
+        height: 350px;
+        width: 450px;
+      }
+
+
+      .employee-container{
+        background-color: aliceblue;
+        display: flex;
+        border: 1px solid black;
+        padding: 1rem;
+        margin: 1rem auto;
+        grid-column-start: 3;
+        grid-column-end: span 2;
+      }
+
+     .employee-container h2{
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 15px;
+        font-family: var(--heading-font);
+      }
+
+      .employee-container img{
+        display: flex;
+        position: relative;
+        height: 200px;
+        width: 250px;
+        padding: 15px;
+        margin-top: 50px;
+      }
+
+      form{
+        max-width: 500px;
+        margin-left: 400px;
+        padding: 20px;
+      }
+
+      button[type="submit_contact"]{
+        background-color: #0F6A79;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        width: 120px;
+        padding: 10px;
+        font-size: 10px;
+        cursor: pointer;
+      }
+
+
 
       article{
         opacity: 0.8;
