@@ -139,6 +139,7 @@
 
 
       fieldset {
+        background-color: aliceblue;
         display: grid;
         grid-gap: 0.5rem;
         border: 1px solid rgba(0, 0, 0, 0.2);
@@ -155,8 +156,16 @@
 
       }
 
-      input{
-        margin: 25px;
+      input[type="text"],
+      input[type="email"],
+      textarea{
+        width: 500px;
+        padding: 10px;
+        margin-bottom: 2px;
+        font-size: medium;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid black;
       }
 
       button[type="submit"]{
@@ -164,9 +173,10 @@
         color: white;
         border-radius: 5px;
         border: none;
-        width: 120px;
+        width: 220px;
         padding: 10px;
-        font-size: 10px;
+        font-size: 18px;
+        font-weight: 700;
         cursor: pointer;
       }
 
