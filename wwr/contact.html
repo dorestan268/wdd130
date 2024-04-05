@@ -61,6 +61,7 @@
                     <legend>Send Us a message</legend>
 
                <form action="submit_contact">
+
                         <label for="name">Enter your name:</label>
                         <input type="text" id="name" name="name" required> <br>
     
@@ -70,11 +71,24 @@
 
     
                         <p>Purpose of the message:</p>
+                        <input type="radio" id="general" name="purpose" value="general inquiry">
                         <label for="general">General Inquiry</label>
-                        <input type="checkbox" id="general" name="purpose" value="general inquiry">
+                       <br>
+
+                        <input type="radio" id="Reservation" name="purpose" value="Reservation Question">
+                        <label for="general">Reservation Question</label>
+                         <br>
+
+                        <input type="radio" id="Suggestion" name="purpose" value="Website Suggestion">
+                        <label for="general">Website suggestion</label>
+                       <br> <br>
                         
-    
-                        <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+                        <label for="Message">Message</label>
+                        <textarea id="message" name="message"  placeholder="Please write your message:"></textarea> <br> <br>
+
+                        <input type="checkbox" id="Newsletter" name="newsletter">
+                        <label for="newsletter">Please subscribe me to the monthly newsletter</label> <br>
+                       
                     </form> 
                 </fieldset>
                 <button type="submit">Send Message</button>

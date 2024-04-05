@@ -146,7 +146,7 @@
 
       fieldset legend{
         font-family: var(--heading-font);
-        font-weight: bold;
+        text-decoration: underline;
       }
 
       button[type="submit"]{
