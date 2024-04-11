@@ -294,3 +294,185 @@
         justify-content: center;
       }
 
+      .trips{
+        margin-left: 50px;
+        opacity: 0.8;
+        padding: 20px;
+        width: 200px;
+        height: 250px;
+        background-color: var(--primary-color);
+        border-radius: 20px;
+        border: 1px solid black;
+        box-sizing: border-box;
+      }
+
+      .trips h2, .trips p{
+        margin-top: -3px;
+        color: white;
+        font-weight: 900;
+        text-align: center;
+      }
+
+      .trips a{
+        margin-top: -3px;
+        color: white;
+        font-weight: 900;
+        margin-left: 40px;
+      }
+
+
+      .fig{
+        display: flex;
+        margin: 15px;
+        justify-content: space-around;
+        border: 1px solid gray;
+        background-color: aliceblue;
+        border-radius: 15px;
+      }
+
+
+      .figure{
+        background-color: white;
+        margin: 10px;
+        width: 300px;
+        height: 400px;
+        border: 1px solid gray;
+        box-shadow: 2px 2px 4px #000000;
+        border-radius: 20px;
+      }
+
+      .figure img{
+        width: 270px;
+        height: 150px;
+        position: relative;
+        margin-left: -25px;
+        border-radius: 10px;
+      }
+
+      .figure figcaption{
+     font-weight: bold;
+      }
+
+
+      table, th, td{
+        margin: 10px;
+        padding: 0 10px 0 10px;
+        border: 1px solid;
+        width: 50%;
+        border-collapse: collapse;
+      }
+
+      th{
+        height: 40px;
+        background-color: gray;
+      }
+
+      td{
+        height: 30px;
+      }
+
+      .image img{
+        width: 100%;
+      }
+
+      .image h2{
+        font-family: var(--heading-font);
+        font-size: xx-large;
+        margin-left: 10%;
+        text-decoration: underline;
+      }
+
+      .signup{
+        display: flex;
+        /* width: 30%; */
+        margin-top: 25px;
+      }
+
+      .signup  fieldset {
+        background-color: aliceblue;
+        display: grid;
+        border-radius: 25px;
+        grid-gap: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 1rem;
+      } 
+
+      .contactIndex input{
+        width: 250px;
+        padding: 10px;
+        margin-bottom: 2px;
+        font-size: medium;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid black;
+      }
+      
+      .signup .btn_contact{
+        background-color:#0F6A79;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        width: 250px;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      .call-to-action{
+        border-radius: 25px;
+        background-color: #0e80fa;
+        width: 950px;
+        padding: 20px;
+        height: 100px;
+        margin-left: 30px;
+        margin-top: 40px;
+      }
+
+
+      .call-to-action h3{
+        margin-top: -1px;
+        color: white;
+       text-align: center;
+       font-size: 25px;
+       font-family: var(--paragraph-font);
+      }
+
+      .call-to-action a{
+        color: white;
+        margin-left: 42%;
+        font-size: 18px;
+        font-family: var(--paragraph-font);
+        font-weight: bold;
+      }
+
+      .grid-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        width: 90%;
+        margin: 15px 0 15px 60px;
+      }
+
+      .grid-item{
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .grid-item img{
+        max-width: 50%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+      }
+
+      .grid-item h3{
+        font-weight: bold;
+        font-family: var(--paragraph-font);
+        text-decoration: underline;
+      }
+
+
+
+
